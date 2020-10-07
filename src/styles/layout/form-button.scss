@@ -1,0 +1,29 @@
+.form-button {
+  background-color: #5f62ac;
+}
+
+.form-button-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: -35px;
+  padding: 58px 0 56px 36px;
+}
+
+.form-button-block h2 {
+  font-size: 34px;
+  color: white;
+  line-height: inherit;
+}
+
+.form-button_link {
+  border: 1px solid #f0c630;
+  border-radius: 4px;
+  padding: 16px 35px;
+  font-size: 20px;
+  &:hover {
+    color: #5f62ac;
+    background-color: #fff;
+    transition: 0.3s all;
+  }
+}

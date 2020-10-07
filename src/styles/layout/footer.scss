@@ -1,0 +1,36 @@
+.footer, .site-menu__link {
+  color: black;
+}
+
+.site-menu__title {
+  font-family: 'robotoregular';
+  margin-bottom: 19px;
+}
+
+.site-menu__sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-menu__item, .site-menu__text a {
+  color: black;
+  opacity: 0.5;
+font-size: 16px;
+margin-bottom: 16px;
+}
+
+.site-menu__item
+ {
+  margin-bottom: 16px;
+  margin-right: 20px;
+
+}
+
+.site-menu__text {
+display: flex;
+flex-direction: column;
+}
+
+.site-menu__col {
+  width: 25%;
+}

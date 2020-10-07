@@ -1,0 +1,23 @@
+.section_hero {
+  background-color: #5f62ac;
+  position: relative;
+  min-height: 640px;
+  height: 100%;
+  z-index: 70;
+}
+
+.main__container {
+  position: relative;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  top: 0;
+  z-index: 90;
+}
+
+.main__text {
+  z-index: 1500;
+  position: absolute;
+  top: 301px;
+  left: 8%;
+  transform: translate(-50%, -50%);
+}

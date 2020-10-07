@@ -1,0 +1,135 @@
+.see-also__list {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin-bottom: 47px;
+}
+
+.see-also__photo {
+  position: relative;
+  
+}
+
+.stock__item, .see-also__text {
+  position: absolute; 
+  
+}
+
+
+.see-also__item, .see-also__img {
+
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+ }
+ 
+ .see-also__item img { 
+   
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+  position: relative;
+ }
+ .see-also__item:hover .see-also__img-pic {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+  
+ }
+
+
+ .see-also__img:after {
+	content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 47.69%, rgba(0, 0, 0, 0.46) 79.98%);
+	opacity: 0.8;
+}
+
+
+ .stock__icon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 141px;
+  left: 6px;
+ 
+  z-index: 1;
+ }
+
+.stock__item:nth-child(2) {
+margin-left: 20px;
+}
+
+.stock__item:hover {
+  z-index: 1000; 
+}
+
+.stock__item {
+  position: relative;
+ 
+
+}
+
+.stock__text {
+  padding: 5px 6px 7px 30px;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+  font-size: 16px;
+  position: absolute;
+  z-index: -1;
+  bottom: 141px;
+  left: 15px;
+  background: #000000;
+opacity: 0.6;
+  transition: all .3s linear;
+ 
+}
+
+.stock__text:before {
+      content: "";
+      display: block;
+      height: 20px;
+      left: 0;
+      right: 0;
+      top: -19px;
+      position: absolute;
+      
+  }
+
+
+.stock__item:hover .stock__text {
+
+  opacity: 0.6;
+}
+
+.see-also__text {
+  bottom: 12px;
+  left: 6px;
+  width: 68%;
+  color: #fff;
+  z-index: 5;
+
+}
+
+.see-also__text span {
+  font-family: 'robotobold';
+}
+
+.see-also__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.see-also__button {
+  color: #000;
+  font-family: 'robotobold';
+  margin: 20px 0 11px 0;
+  font-size: 20px;
+}
+
+.see-also__button:hover {
+  color: #5F62AC;
+}

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.min.css">
+  <title>Headliner</title>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="section section_hero">
+      <header class="header">
+        <div class="container header__container">
+          <a href="#" class="logo header__logo">
+            <svg  class="logo__icon">
+              <use xlink:href="./images/icons/sprite.svg#Group_4"></use>
+            </svg>
+          </a> 
+          <nav class="header__navigation">
+              <ul class="navigation-list">
+                <li class="navigation__item">
+                    <a href="#section_information" class="navigation__link">Описание</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section_location" class="navigation__link">Локация</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#see-also" class="navigation__link">Смотрите также</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section_register" class="navigation__link">Запись на просмотр</a>
+                </li>
+                <div class="line"></div>
+              </ul>
+              
+              <div class="hamburger">
+                  <span class="hamburger__line"></span>
+                  <span class="hamburger__line"></span>
+                  <span class="hamburger__line"></span>
+              </div>
+          </nav>
+      </div>
+      </header>
+      <div class="container main__container">
+        <div class="main__text">
+          <h1 class="section__title section__title_main">
+              <span class="title section__title_main">Многофункциональный жилой <br>квартал HEADLINER</span>
+              <span class="subtitle">Сдача — 4 кв. 2022, есть сданные</span>
+          </h1>
+        </div>
+        <div class="main__slider slider fade">
+            <div class="main__slider_item ">
+              <img src="./images/pic/main-1.jpg" alt="" srcset="" class="main__slider_img">
+            </div>
+            <div class="main__slider-item ">
+              <img src="./images/pic/main-2.jpg" alt="" srcset="" class="main__slider_img">
+            </div>
+            <div class="main__slider_item ">
+              <img src="./images/pic/main-1.jpg" alt="" srcset="" class="main__slider_img">
+            </div>
+            <div class="main__slider-item">
+              <img src="./images/pic/main-2.jpg" alt="" srcset="" class="main__slider_img">
+            </div>
+            <div class="main__slider-item ">
+              <img src="./images/pic/main-1.jpg" alt="" srcset="" class="main__slider_img">
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section_information" id="section_information">
+        <div class="information__container">
+          <ul class="filter">
+            <li class="filter__item filter__item--active ">
+              <a href="#" data-filter="pros-cons" class="filter__link">Плюсы и минусы</a>
+            </li>
+            <li class="filter__item">
+              <a href="#" data-filter="aerotour" class="filter__link">Аэротур</a>
+            </li>
+            <li class="filter__item">
+              <a href="#" data-filter="placing" class="filter__link">Планировки</a>
+            </li>
+            <li class="filter__item">
+              <a href="#" data-filter="developer" class="filter__link">Застройщик</a>
+            </li>
+          </ul>
+          <ul class="information__list">
+            <li class="information__item pros-cons">
+              <ul class="about-list">
+                <li class="about__item about__item_pros">
+                  <p class="about__item-text">Привлекательная архитектура</p>
+                  <p class="about__item-text">Большой выбор квартир</p>
+                  <p class="about__item-text">Поразительные виды из окон</p>
+                  <p class="about__item-text">Сложившийся район со всем <br> необходимым</p>
+                  <p class="about__item-text">Сравнительно низкие цены</p>
+                </li>
+                <li class="about__item about__item_cons">
+                  <p class="about__item-text">Недостаток собственной инфраструктуры</p>
+                  <p class="about__item-text">Частые пробки вокруг</p>
+                  <p class="about__item-text">Не лучшая экология</p>
+                </li>
+              </ul>
+            </li>
+            <li class="information__item aerotour">
+              <div class="aerotour__image">
+                  <img src="./images/pic/main-1.jpg" alt="Lost-shirt logo" class="aerotour__image-pic">
+              </div>
+            </li>
+            <li class="information__item placing">
+              <div class="placing__image">
+                <img src="./images/pic/placing.jpg" alt="Lost-shirt logo" class="placing__image-pic">
+              </div>
+            </li>
+            <li class="information__item developer">
+              <h1 class="section__title section__title_developer">
+                <span class="title section__title_info">HEADLINER</span>
+                <span class="section__title_subtitle">Сдача - 4 кв. 2022, есть сданные</span>
+            </h1>
+            </li>
+          </ul>
+        </div>
+        <div class="form-button">
+          <div class="container">
+            <div class="form-button-block">
+              <h2 class="title">Запишитесь на просмотр и оцените <br> всё сами!</h2>
+              <a href="#section_register" class="form-button_link">Запись на просмотр</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="section section_location" id="section_location">
+      <div class="container location__container">
+         <div class="location__map">
+        <h2 class="section__title section__title_location">
+          <span class="title title__black">Локация</span>
+          <span class="subtitle subtitle__black">Москва, ЦАО, Пресненский, Шмитовский проезд, вл. 39</span>
+        </h2>
+        <ul class="subway__list subtitle subtitle__black">
+          <li class="subway__item">
+            Шелепиха
+            <span class="time">5 мин пешком</span>
+          </li>
+          <li class="subway__item">
+            Фили
+            <span class="time">6 мин на транспорте</span>
+          </li>
+        </ul>
+        <div id="map" class="map"></div>
+      </div>
+      <div class="see-also" id="see-also">
+          <h2 class="section__title section__title_location">
+            <span class="title  title__black">Смотрите также</span>
+          </h2>
+          <ul class="see-also__list">
+            <li class="see-also__item">
+              <div class="see-also__photo">
+                <div class="see-also__img">
+                  <img src="./images/pic/Rec1.jpg" alt="Lost-shirt logo" class="see-also__img-pic">
+                </div>
+                <div class="see-also__stock">
+                  <ul class="stock__list">
+                    <li class="stock__item">
+                      <svg  class="stock__icon">
+                        <use xlink:href="./images/icons/sprite.svg#Group_151"></use>
+                      </svg>
+                      <div class="stock__text">
+                          Быстрые сделки
+                      </div>
+                    </li>
+                    <li class="stock__item">
+                      <svg  class="stock__icon">
+                        <use xlink:href="./images/icons/sprite.svg#Group_147"></use>
+                      </svg>
+                      <div class="stock__text">
+                          VIP-отделка
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="see-also__text">
+                  <span>8 217 030 - 29 070 951₽</span>
+                  569 квартир в продаже
+                </div>
+              </div>
+              <div class="see-also__info">
+                <a href="#" class="see-also__button">ЖК «Level Стрешнево» <br> (Левел Стрешнево)</a>
+                <span class="section__title_subtitle">Москва, СВАО</span>
+                <div class="subway__item">Алексеевская
+                  <span class="time">5 мин</span>
+                </div>
+              </div>
+            </li>
+            <li class="see-also__item">
+              <div class="see-also__photo">
+                <div class="see-also__img">
+                  <img src="./images/pic/Rec2.jpg" alt="Lost-shirt logo" class="see-also__img-pic">
+                </div>
+                <div class="see-also__stock">
+                  <ul class="stock__list">
+                    <li class="stock__item">
+                      <svg  class="stock__icon">
+                        <use xlink:href="./images/icons/sprite.svg#Group_152"></use>
+                      </svg>
+                      <div class="stock__text">
+                          Действует скидка
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="see-also__text">
+                <span>8 217 030 - 29 070 951₽</span>
+                569 квартир в продаже
+                </div>
+              </div>
+              <div class="see-also__info">
+                <a href="#" class="see-also__button">ЖК «Новое Медведково»</a>
+                <span class="section__title_subtitle">Москва, СВАО</span>
+                <ul class="subway__list">
+                  <li class="subway__item">
+                    Алексеевская
+                    <span class="time">5 мин</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="see-also__item">
+              <div class="see-also__photo">
+                <div class="see-also__img">
+                  <img src="./images/pic/Rec3.jpg" alt="Lost-shirt logo" class="see-also__img-pic">
+                </div>
+                <div class="see-also__text">
+                <span>8 217 030 - 29 070 951₽</span>
+                569 квартир в продаже
+                </div>
+              </div>
+              <div class="see-also__info">
+                <a href="#" class="see-also__button">ЖК «Люберецкий»</a>
+                <span class="section__title_subtitle">Москва, СВАО</span>
+                <ul class="subway__list">
+                  <li class="subway__item">
+                    Алексеевская
+                    <span class="time">5 мин</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="see-also__item">
+              <div class="see-also__photo">
+                <div class="see-also__img">
+                  <img src="./images/pic/Rec4.jpg" alt="Lost-shirt logo" class="see-also__img-pic">
+                </div>
+                <div class="see-also__text">
+                <span>8 217 030 - 29 070 951₽</span>
+                569 квартир в продаже
+                </div>
+              </div>
+              <div class="see-also__info">
+                <a href="#" class="see-also__button">ЖК «Измайловский лес»</a>
+                <span class="section__title_subtitle">Москва, СВАО</span>
+                <ul class="subway__list">
+                  <li class="subway__item">
+                    Алексеевская
+                    <span class="time">5 мин</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section section_register" id="section_register">
+          <div class="register__form">
+            <div class="container form__container">
+              <h2 class="title">Запишитесь на просмотр и оцените <br> всё сами!</h2>
+              <form class="form" action="">
+                <div class="form__row">
+                  <input type="text" placeholder="Как вас зовут?"  class="form-input">
+                </div>
+                <div class="form__row">
+                  <select name="date" type="date" step="1" class="form-input">
+                  <option value="" default disabled selected>16 сентября</option>
+                  <option value="1">17 сентября</option>
+                  <option value="2">18 сентября</option>
+                  <option value="3">19 сентября</option>
+                  <option value="4">20 сентября</option>
+                  <option value="5">21 сентября</option>
+                  <option value="6">22 сентября</option>
+                </select>
+                <select name="time" type="time" step="1" class="form-input">
+                  <option value="" default disabled selected>14:00</option>
+                  <option value="1" >12:00</option>
+                  <option value="2">13:00</option>
+                  <option value="3">14:00</option>
+                  <option value="4">15:00</option>
+                  <option value="5">16:00</option>
+                  <option value="6">17:00</option>
+                  <option value="7">18:00</option>
+                  <option value="8">19:00</option>
+                </select></div>
+                <div class="form__row">
+                  <input type="number" placeholder="Ваш телефон"  class="form-input"></div>
+                <div class="form__row form__row_checkbox">
+                    <input class="form__checkbox" id="adult" type="checkbox" value="adult" name="adult" required>
+                  <label class="label label_checkbox" for="adult">
+                    Напомните мне за 2 часа до визита
+                  </label>
+                </div>
+                <div class="form__row form__row-button">
+                  <a href="#" class="button form-button_link">Отправить</a>
+                </div>
+            </form>
+            
+            </div>
+          </div> 
+    </section>
+    <footer class="footer">
+          <div class="container footer__container">
+            <nav class="site-menu">
+              <ul class="site-menu__sections">
+                <li class="site-menu__col">
+                  <h3 class="site-menu__title">Новостройки </h3>
+                    <ul class="site-menu__list">
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Квартиры в Москве</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Квартиры в Новой Москве</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Квартиры в Подмосковье</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">В Москве</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">В Подмосковье</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">В Новой Москве</a>
+                      </li>
+                    </ul>
+                </li>
+                <li class="site-menu__col">
+                  <h3 class="site-menu__title">Популярное</h3>
+                    <ul class="site-menu__list">
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">В рассрочку</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Военная ипотека</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">До 4 млн</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">До 6 млн</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Внутри МКАД</a>
+                      </li>
+                    </ul>
+                </li>    
+                <li class="site-menu__col">
+                  <h3 class="site-menu__title">Рекламный отдел</h3>
+                    <div class="site-menu__text">
+                      <a href="tel.:+74959874247" class="site-menu__text-row">+7 (495) 987-42-47 доб. 501</a>
+                      <a href="mailto:kp@novostroy-m.ru" class="site-menu__text-row">kp@novostroy-m.ru</a>
+                    </div>
+                </li>
+                <li class="site-menu__col">
+                  <h3 class="site-menu__title">© 2011—2020 Новострой-М <br> Всё, что нужно знать о <br> новостройках</h3>
+                   
+                </li>
+              </ul>
+            </nav>
+        </footer>
+  </div>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
+	</script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="main.min.js"></script>
+</body>
+</html>

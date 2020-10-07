@@ -1,0 +1,28 @@
+.slick-prev, .slick-arrow {
+  display: none !important;
+}
+
+.main__slider {
+  position: absolute;
+  z-index: 80;
+  
+}
+
+.slick-dots li {
+  color: #fff;
+  opacity: 0.3;
+
+    &.slick-active  {
+  opacity: 1;
+}
+}
+
+.slick-dots li button {
+
+  background: #fff;
+  color: #fff;
+  opacity: 0.3;
+  &:hover, &:focus {
+    opacity: 0.7;
+  }
+}

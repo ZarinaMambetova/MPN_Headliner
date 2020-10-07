@@ -1,0 +1,137 @@
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 32px 0;
+  flex-wrap: wrap;
+  max-width: 545px;
+  padding-bottom: 20px;
+}
+
+.form__row {
+    margin-bottom: 10px;
+display: flex;
+}
+
+.form-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #F0C630;
+  font-family: 'robotolight';
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  padding: 18px 70px 18px 3px;
+  outline: 0;
+  opacity: 0.5;
+
+ 
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: url('../..//images/pic/Polygon.svg') no-repeat right center;
+  outline: 0;
+}
+
+input::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+input:-ms-input-placeholder,
+select:-ms-input-placeholder {
+  color:rgba(255, 255, 255, 1);
+}
+input::-ms-input-placeholder,
+select::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+input::placeholder,
+select::placeholder {
+  color:rgba(255, 255, 255, 1);
+}
+
+
+
+
+.form__row select {
+flex: 1;
+margin-right: 10px;
+
+}
+
+.button {
+  color: #5F62AC;
+  font-family: 'robotolight';
+border-radius: 4px;
+padding: 16px 35px;
+font-size: 20px;
+
+text-align: center;
+text-decoration: none;
+transition: .5s;
+padding: 15px 41px;
+border: 1px solid transparent;
+margin: 15px 0;
+font-size: 20px;
+background-color: #FFFFFF;
+opacity: 0.5;
+border-radius: 4px;
+&:hover {
+  border: 1px solid #F0C630;
+  
+  opacity: 1;
+}
+
+}
+
+option {
+  color: #000;
+
+}
+
+.form__checkbox {
+  display: none;
+ 
+}
+
+.form__row_checkbox {
+  align-items: center;
+    display: flex;
+}
+
+
+.form__checkbox+.label_checkbox {
+  position: relative;
+  margin-top: 10px;
+}
+.form__checkbox+.label_checkbox:hover {
+  cursor: pointer;
+}
+.form__checkbox+.label_checkbox:before {
+  content: '';
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #fff;
+  margin-right: 10px;
+}
+.form__checkbox+.label_checkbox:after {
+  content: '';
+  display: inline-block;
+  width: 17px;
+    height: 17px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  opacity: 0;
+  transition: all 0.2s linear;
+  background: url('../../images/pic/Vector-6.svg') 50% 50% no-repeat;
+
+}
+.form__checkbox:checked+.label_checkbox:after {
+  opacity: 1;
+}

@@ -1,0 +1,83 @@
+@import "./layout/*.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+html {
+  font-size: 16px;
+    height: 100%;
+    color: #fff;
+    font-family: 'robotoregular';
+    scroll-behavior: smooth; 
+ 
+}
+
+body {
+  background-color: white;
+}
+
+.wrapper {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  min-width: 960px;
+     scroll-behavior: smooth; 
+}
+
+.container {
+  width: 97%;
+  margin: 0 auto;
+
+}
+
+.section__title {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: 'robotolight';
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 300;
+  @media (max-width: 700px) {
+    font-size: 40px;
+   }
+}
+
+.subtitle {
+  font-family: 'robotoregular';
+  font-size: 16px;
+  font-weight: 400;
+margin-top: 21px;
+  @media (max-width: 700px) {
+    font-size: 14px;
+   }
+}
+
+.title__black, .subtitle__black {
+  color: #000;
+}
+
+.location__container, .footer__container, .form__container {
+  width: 77%;
+}
