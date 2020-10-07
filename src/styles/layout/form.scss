@@ -33,7 +33,7 @@ select {
   -moz-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: url('../..//images/pic/Polygon.svg') no-repeat right center;
+  background: url('./images/pic/Polygon.svg') no-repeat right center;
   outline: 0;
 }
 
@@ -129,7 +129,7 @@ option {
   top: 3px;
   opacity: 0;
   transition: all 0.2s linear;
-  background: url('../../images/pic/Vector-6.svg') 50% 50% no-repeat;
+  background: url('./images/pic/Vector-6.svg') 50% 50% no-repeat;
 
 }
 .form__checkbox:checked+.label_checkbox:after {
